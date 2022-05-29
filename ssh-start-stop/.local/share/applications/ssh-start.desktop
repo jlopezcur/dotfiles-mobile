@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=SSH Start
+Comment=Script for start SSH
+Icon=terminal
+Exec=/bin/systemctl start sshd
+Terminal=false
+Categories=Network
+X-Purism-FormFactor=Workstation;Mobile;
+
