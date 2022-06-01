@@ -8,6 +8,7 @@ Dotfiles for Pinephone Pro
 
 ## Apps
 
+- [Foliate](https://johnfactotum.github.io/foliate/): ePub reader
 - Firmware: Firmware updater
 - [Feeds](https://gfeeds.gabmus.org/): Feed reader
 - [GHex](https://wiki.gnome.org/Apps/Ghex): Hex editor
