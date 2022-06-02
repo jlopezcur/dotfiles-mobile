@@ -1,5 +1,23 @@
 # Things to do after install
 
+## Change the password
+
+```
+passwd
+```
+
+## Connect via ssh
+
+```
+systemctl start sshd
+```
+
+## Install the base
+
+```
+pacman -S git git-lfs exa bat procs neovim
+```
+
 ## Install an AUR helper
 
 ```
@@ -18,6 +36,8 @@ sudo ln -sf /bin/dash /bin/sh
 
 ## SSH secure configuration
 
+Edit the file `/etc/ssh/sshd_config`
+
 ```
 # Uncomment and change the line
 PermitRootLogin no
@@ -30,6 +50,8 @@ Banner none
 
 ## Pacman configurations
 
+Edit `/etc/pacman.conf`
+
 ```
 # Uncomment the line
 Color
@@ -37,3 +59,11 @@ Color
 # Add the line
 ILoveCandy
 ```
+
+## Install icon theme
+
+```
+paru -S papirus-icon-theme
+```
+
+For search other icon themes use `paru icon-theme`.
